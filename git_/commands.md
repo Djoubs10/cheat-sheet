@@ -7,7 +7,7 @@
 - `git commit -m <message>`  
 : To take a screenshot of the current directory.
 - `git log`
-: To view the history of the project. Special command : `git log --pretty:'%h %ad | %s%d [%an]' --graph --date=short`
+: To view the history of the project. Special command : `git log --pretty=fromat:'%h %ad | %s%d [%an]' --graph --date=short`
 - `git checkout <tag or hash>` 
 : To go back into a previous commit.
 - `git tag <name>` 
@@ -31,7 +31,7 @@
 - `git merge <branchname>`
 : To bring changed og a branch to the current one.
 ### !! You have to choose a version and to commit it to resolve merge conflicts
-- `git fetch`
+- `git fetch`bash
 : To pull changes from the remote repository without applying them locally. Use : `git merge origin/<branch>` to apply changes.
 - `git pull`
 : To pull and merge remote changes.
